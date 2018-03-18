@@ -24,7 +24,10 @@ var config = {
                 loader: "json-loader"  //JSON loader
             }
         ]
-    }
+    },
+    devServer: {
+        contentBase: __dirname + '/build',
+    },
 };
 
 module.exports = config;
